@@ -7,11 +7,11 @@ from .utils import build_headers
 __all__ = [
     "ClientSession",
     "Response",
-    "ExiosException",
+    "oxiusException",
     "HTTPException",
     "ConnectionException",
     "TimeoutException",
     "DecodeException",
-    "exiosCache",
+    "oxiusCache",
     "build_headers"
 ]
