@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg?style=flat-square&logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/fastaio.svg?style=flat-square&logo=pypi)](https://pypi.org/project/fastaio/)
+[![PyPI](https://img.shields.io/pypi/v/fastaio.svg?style=flat-square&logo=pypi)](https://pypi.org/project/oxius/)
 
 Ultra-fast, dependency-free async HTTP client for Python. A drop-in alternative to aiohttp with minimal footprint.
 
