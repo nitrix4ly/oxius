@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='oxius',
-    version='1.0.1',
+    version='1.0.2',
     author='Nitrix',
     author_email='nitrixexe@outlook.com',
     description='Async FastAPI-style wrapper',
