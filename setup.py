@@ -8,7 +8,7 @@ setup(
     description='Async FastAPI-style wrapper',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/nitrix4ly/exios',
+    url='https://github.com/nitrix4ly/oxius',
     packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
