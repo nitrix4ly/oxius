@@ -4,7 +4,7 @@ from urllib.parse import urlparse
 from .response import Response
 from .exceptions import HTTPException
 from .utils import build_headers
-from .cache import exiosCache
+from .cache import oxiusCache
 
 class ClientSession:
     def __init__(self, default_headers=None, timeout=10, cache_enabled=True):
@@ -16,7 +16,7 @@ class ClientSession:
         if default_headers:
             self.default_headers.update(default_headers)
         self.timeout = timeout
-        self.cache = exiosCache() if cache_enabled else None
+        self.cache = oxiusCache() if cache_enabled else None
 
     async def request(self, method, url, headers=None, body=None):
         method = method.upper()
